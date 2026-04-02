@@ -5,49 +5,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Saya</title>
     <link rel="stylesheet" href="style.css">
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
 </head>
 <body>
 
-    <header>
-        <h1>Portfolio Saya</h1>
-        <p>Web Developer | Student</p>
-    </header>
+<!-- NAVBAR -->
+<nav class="navbar">
+    <div class="logo">MyPortfolio</div>
 
-    <section id="about">
-        <h2>Tentang Saya</h2>
-        <p>Saya adalah developer yang sedang belajar membuat website modern.</p>
-    </section>
+    <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">Profile</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Kontak</a></li>
+    </ul>
 
-    <section id="projects">
-        <h2>Project Saya</h2>
+    <div class="menu-toggle" id="menu-toggle">
+        ☰
+    </div>
+</nav>
 
-        <div class="project-container">
+<!-- HEADER (HOME) -->
+<header id="home">
+    <h1>Portfolio Saya</h1>
+    <p>Web Developer | Student 🚀</p>
+</header>
 
-            <div class="card">
-                <h3>Website Perpustakaan</h3>
-                <p>CRUD buku dengan Laravel</p>
-                <a href="#">Lihat</a>
-            </div>
+<!-- ABOUT -->
+<section id="about">
+    <h2>Tentang Saya</h2>
+    <p>Saya adalah developer yang sedang belajar membuat website modern.</p>
+</section>
 
-            <div class="card">
-                <h3>Website Resep</h3>
-                <p>Website resep dengan login & dashboard</p>
-                <a href="#">Lihat</a>
-            </div>
+<!-- PROJECT -->
+<section id="projects">
+    <h2>Project Saya</h2>
 
-            <div class="card">
-                <h3>Portfolio Pribadi</h3>
-                <p>Website portfolio sederhana</p>
-                <a href="#">Lihat</a>
-            </div>
+    <div class="project-container">
 
+        <div class="card">
+            <h3>Website Perpustakaan</h3>
+            <p>CRUD buku dengan Laravel</p>
+            <a href="#">Lihat</a>
         </div>
-    </section>
 
-    <footer>
-        <p>© 2026 Portfolio</p>
-    </footer>
+        <div class="card">
+            <h3>Website Resep</h3>
+            <p>Website resep dengan login & dashboard</p>
+            <a href="#">Lihat</a>
+        </div>
 
-    <script src="script.js"></script>
+        <div class="card">
+            <h3>Portfolio Pribadi</h3>
+            <p>Website portfolio sederhana</p>
+            <a href="#">Lihat</a>
+        </div>
+
+    </div>
+</section>
+
+<!-- CONTACT (BARU) -->
+<section id="contact">
+    <h2>Kontak</h2>
+    <p>Email: kamu@email.com</p>
+    <p>WhatsApp: 08xxxxxxxxxx</p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2026 Portfolio</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
